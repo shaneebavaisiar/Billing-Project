@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% extends 'bill/base.html' %}
+{% block body_block %}
+
+
+<div  class="container login_container">
+            <h1 class="div_form" style="text-align: center;">Login Here</h1>
+            <form action="" method="post">
+                {%csrf_token%}
+                <div class="div_form">
+                    <input type="email" name="email" placeholder="email" class="login_form">
+                </div>
+                <div class="div_form">
+                    <input type="password" name="pwd" placeholder="password" class="login_form">
+                </div>
+                <input type="submit" value="login" class="login_form">
+                <br>
+                <div class="div_form">
+                    <a href="{%url 'register'%}">Create an Account</a>
+                </div>
+            </form>
+    </div>
+    
+{% endblock %}

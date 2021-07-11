@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% extends 'bill/base.html' %}
+{% block body_block %}
+<br>
+
+<div><b>bill number:</b>{{order.bill_number}}</div>
+<div>
+    <b>customer name:</b>{{order.customer_name}}
+</div>
+<div><b>phone:</b>{{order.phone_number}}</div>
+<div><b>bill date:</b>{{order.bill_date}}</div>
+
+<table class="table mt-4">
+    <tr>
+<!--        <th>bill number</th>-->
+<!--        <th>customer name</th>-->
+<!--        <th>phone number</th>-->
+        <th>product</th>
+        <th>qty</th>
+        <th>amount</th>
+    </tr>
+    {% for item in items %}
+    <tr>
+<!--        <td>{{item.bill_number.bill_number}}</td>-->
+<!--        <td>{{item.bill_number.customer_name}}</td>-->
+<!--        <td>{{item.bill_number.phone_number}}</td>-->
+        <td>{{item.product.product_name}}</td>
+        <td>{{item.product_qty}}</td>
+        <td>{{item.amount}}</td>
+
+    </tr>
+    {% endfor %}
+
+
+</table>
+<div style="margin-left:60%;"><b>grand total:{{order.bill_total}}</b></div>
+
+{% endblock %}
+
+

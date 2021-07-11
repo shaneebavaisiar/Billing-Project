@@ -1,0 +1,124 @@
+
+.cart-icon{
+height:50px;
+}
+.mobiles{
+margin-left:20px;
+}
+.login_container{
+    width: 350px;
+    padding: 50px 30px;
+    position: relative;
+    top: 150px;
+    background-color:rgb(242, 247, 255);
+    border-radius: 10px;
+}
+.login_form{
+width:290px
+}
+.div_form{
+    margin-bottom: 20px;
+}
+.brand_container{
+    width: 350px;
+    /* background-color:rgb(242, 247, 255); */
+    padding:30px
+}
+.brand_submit{
+width: 150px;
+}
+.brand_edit{
+    width: 800px;
+    padding: 50px 30px;
+    position: relative;
+    top: 150px;
+    /* background-color:rgb(242, 247, 255); */
+    border-radius: 10px;
+    font-size: 40px;
+}
+.brand_edit_bttn{
+    margin-left: 220px;
+    width: 200px;
+    margin-top: 10px;
+}
+/* ----------------------------mobile list------------------------------ */
+.mobile_list{
+    position: relative;
+   top:50px;
+}
+.box{
+   box-shadow: hsl(0,0%,80%) 0 0 16px;
+   background-color: #fff;
+   border-radius: 4px;
+   padding: 20px;
+   margin-bottom:10px
+
+}
+/* ----------------------------cart style------------------------------ */
+/* .cart_page{
+margin:80px auto;
+}
+.cart_table{
+width:100%;
+}
+.cart_info{
+display:flex;
+flex-wrap:wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background-color: black;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    text-decoration: none;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.total_price{
+    display: flex;
+    justify-content: flex-end;
+}
+.cart_counter{
+    color:yellow;
+    position:relative;
+    right:170px;
+    bottom: 5px;
+    
+} */
+
+/* ----------------------------cart style------------------------------ */
+.cart_counter{
+    color:yellow;
+    position:relative;
+    right:160px;
+    bottom: 5px;
+
+}
+.cart_row{
+    display: flex;
+    align-items: flex-stretch;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+/* ============================================checkout============================================== */
+
+from_field{
+    display: inline-block;
+    width: 250px;
+    padding: 5px;
+
+}

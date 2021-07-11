@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends 'bill/base.html' %}
+{% block body_block %}
+<br>
+<h1>Search Here !!!!</h1>
+<br>
+<form action="" method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit">
+</form>
+{% endblock %}
